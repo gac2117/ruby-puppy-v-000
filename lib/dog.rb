@@ -7,4 +7,12 @@ class Dog
     @name = name
     @@all << self
   end
+
+  def self.clear_all
+
+  end
+
+  def self.all
+    @@all 
+  end
 end
